@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize
     function init() {
         if (!filterRowsContainer) return; // Guard in case of missing DOM
-        createFilterRow("Mã CTV", "SANGLT_LDG_CNKD,TAMDT_LDG_CNKD,LINHPM_LDG_CNKD,LONGNT_LDG_CNKD,NHUANVD_LDG_CNKD,ANLT_LDG_CNKD");
+        createFilterRow("Mã CTV", "PHUONGNTT1_LDG_CNKD,HANGBT_LDG_CNKD,HUNGTV1_LDG_CNKD,SANGTV_LDG_CNKD,THUONGNTH_LDG_CNKD,HUONGVTT_LDG_CNKD,HIEUBT_LDG_CNKD");
         createFilterRow();
         createFilterRow();
         createFilterRow();
