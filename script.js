@@ -40,7 +40,7 @@ function init() {
 
     function checkLogin() {
         const password = passwordInput.value;
-        if (password === '1122@@44') {
+        if (password === 'Dilinh@123') {
             sessionStorage.setItem('isLoggedIn', 'true');
             if (loginOverlay) loginOverlay.style.display = 'none';
             if (appContainer) appContainer.style.display = 'flex';
